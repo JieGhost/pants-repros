@@ -1,3 +1,3 @@
 package com.example.a
 
-object A
+class A() {}

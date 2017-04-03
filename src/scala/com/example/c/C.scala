@@ -2,6 +2,8 @@ package com.example.c
 
 import com.example.b.B
 
-object C extends B {
-  def empty: String = ""
+object C {
+  def foo() {
+    var b = B.a;
+  }
 }
