@@ -5,5 +5,5 @@ import com.example.a.A
 object B {
   // def create: com.example.a.A.type = com.example.a.A
   // def empty: String
-  val a = new A() //  implicitly[A]
+  val a = implicitly[Manifest[A]]
 }
